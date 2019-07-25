@@ -1,9 +1,5 @@
 # Zombie Terror
-> Short blurb about what your product does.
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
 
 Java Swing implementation of board game Zombie Terror.
 Turn-based game for two players.
