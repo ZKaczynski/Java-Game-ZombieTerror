@@ -49,7 +49,7 @@ public class PistolAction extends Action
                 
                 gameLogic.policemenModel.activateBullet();
                 int i = gameLogic.policemenModel.getBullets();
-                gameLook.mainBoard.policemenIcon.setIcon(new ImageIcon(getClass().getClassLoader().getResource("Images//Interface//IconPoliceman"+i+".png")));
+                gameLook.mainBoard.policemenIcon.setIcon(new ImageIcon(getClass().getClassLoader().getResource("Images/Interface/IconPoliceman"+i+".png")));
                 if (i==0) gameLook.mainBoard.policemenIcon.setEnabled(false);
                 
                 

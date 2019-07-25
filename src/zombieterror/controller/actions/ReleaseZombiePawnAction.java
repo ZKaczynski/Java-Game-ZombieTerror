@@ -148,7 +148,7 @@ public class ReleaseZombiePawnAction extends Action
 
                 
                 zp.setLocation(event.getSource().getFixedPosition()); 
-                ImageIcon icon = new ImageIcon(getClass().getClassLoader().getResource("Images//PawnIcons//Zombie.png"));
+                ImageIcon icon = new ImageIcon(getClass().getClassLoader().getResource("Images/PawnIcons/Zombie.png"));
                 zp.setIcon(icon);
                 Point modp = calculateModelCoordintes(event.getSource().getFixedPosition());
                 switch (gameLogic.boardModel.getSquere(modp).getSquereOccupation()){
@@ -157,7 +157,7 @@ public class ReleaseZombiePawnAction extends Action
                     case ZombieS: zm.zombiedirection=ZombieModel.zdirection.S; zp.rotatePawn(1); zp.rotatePawn(1); break;
                     case ZombieW: zm.zombiedirection=ZombieModel.zdirection.W; zp.rotatePawn(-1); break;    
                     
-                    default:System.out.println("CRITICAL ERROR!!!");
+                    default:System.out.println("CRITICAL ERROR!!!lolxd");
                 }
                 
                 zm.setMoving(false);

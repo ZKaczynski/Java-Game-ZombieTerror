@@ -53,7 +53,7 @@ public class BiteAction extends Action {
                             gameLogic.boardModel.updateTile(gameLogic.girlModel.getPointOnBoard(), BoardModel.squereOccupation.Empty);
                             gameLogic.girlModel.setPointOnBoard(new Point (-1,-1));
                             gameLook.mainBoard.girlPawn.setVisible(false);
-                            ImageIcon icon = new ImageIcon(getClass().getClassLoader().getResource("Images//Interface//ActionPointsdead.png"));
+                            ImageIcon icon = new ImageIcon(getClass().getClassLoader().getResource("Images/Interface/ActionPointsdead.png"));
                             gameLook.mainBoard.girlInterface.setIcon(icon);
                             gameLook.mainBoard.girlIcon.setEnabled(false);
                             gameLogic.zombiesToSpawn++;
@@ -72,7 +72,7 @@ public class BiteAction extends Action {
                             gameLogic.boardModel.updateTile(gameLogic.nurseModel.getPointOnBoard(), BoardModel.squereOccupation.Empty);
                             gameLogic.nurseModel.setPointOnBoard(new Point (-1,-1));
                             gameLook.mainBoard.nursePawn.setVisible(false);
-                            ImageIcon icon = new ImageIcon(getClass().getClassLoader().getResource("Images//Interface//ActionPointsdead.png"));
+                            ImageIcon icon = new ImageIcon(getClass().getClassLoader().getResource("Images/Interface/ActionPointsdead.png"));
                             gameLook.mainBoard.nurseInterface.setIcon(icon);
                             gameLook.mainBoard.nurseIcon.setEnabled(false);
                             gameLogic.zombiesToSpawn++;
@@ -92,7 +92,7 @@ public class BiteAction extends Action {
                             gameLogic.boardModel.updateTile(gameLogic.mechanicModel.getPointOnBoard(), BoardModel.squereOccupation.Empty);
                             gameLogic.mechanicModel.setPointOnBoard(new Point (-1,-1));
                             gameLook.mainBoard.mechanicPawn.setVisible(false);
-                            ImageIcon icon = new ImageIcon(getClass().getClassLoader().getResource("Images//Interface//ActionPointsdead.png"));
+                            ImageIcon icon = new ImageIcon(getClass().getClassLoader().getResource("Images/Interface/ActionPointsdead.png"));
                             gameLook.mainBoard.mechanicInterface.setIcon(icon);    
                             gameLook.mainBoard.mechanicIcon.setEnabled(false);
                             gameLogic.zombiesToSpawn++;
@@ -111,7 +111,7 @@ public class BiteAction extends Action {
                             gameLogic.boardModel.updateTile(gameLogic.policemenModel.getPointOnBoard(), BoardModel.squereOccupation.Empty);
                             gameLogic.policemenModel.setPointOnBoard(new Point (-1,-1));
                             gameLook.mainBoard.policemanPawn.setVisible(false);
-                            ImageIcon icon = new ImageIcon(getClass().getClassLoader().getResource("Images//Interface//ActionPointsdead.png"));
+                            ImageIcon icon = new ImageIcon(getClass().getClassLoader().getResource("Images/Interface/ActionPointsdead.png"));
                             gameLook.mainBoard.policemenInterface.setIcon(icon);    
                             gameLook.mainBoard.policemenIcon.setEnabled(false);
                             gameLogic.zombiesToSpawn++;
@@ -130,7 +130,7 @@ public class BiteAction extends Action {
                             gameLogic.boardModel.updateTile(gameLogic.lumberjackModel.getPointOnBoard(), BoardModel.squereOccupation.Empty);
                             gameLogic.lumberjackModel.setPointOnBoard(new Point (-1,-1));
                             gameLook.mainBoard.lumberjackPawn.setVisible(false);
-                            ImageIcon icon = new ImageIcon(getClass().getClassLoader().getResource("Images//Interface//ActionPointsdead.png"));
+                            ImageIcon icon = new ImageIcon(getClass().getClassLoader().getResource("Images/Interface/ActionPointsdead.png"));
                             gameLook.mainBoard.lumberjackInterface.setIcon(icon);    
                             gameLook.mainBoard.lumberjackIcon.setEnabled(false);
                             gameLogic.zombiesToSpawn++;
@@ -154,7 +154,7 @@ public class BiteAction extends Action {
                             gameLogic.boardModel.updateTile(gameLogic.bankerModel.getPointOnBoard(), BoardModel.squereOccupation.Empty);
                             gameLogic.bankerModel.setPointOnBoard(new Point (-1,-1));
                             gameLook.mainBoard.bankerPawn.setVisible(false);
-                            ImageIcon icon = new ImageIcon(getClass().getClassLoader().getResource("Images//Interface//ActionPointsdead.png"));
+                            ImageIcon icon = new ImageIcon(getClass().getClassLoader().getResource("Images/Interface/ActionPointsdead.png"));
                             gameLook.mainBoard.bankerInterface.setIcon(icon);    
                             gameLook.mainBoard.bankerIcon.setEnabled(false);
                             gameLogic.zombiesToSpawn++;
